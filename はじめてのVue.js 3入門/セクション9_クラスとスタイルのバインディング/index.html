@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js 3</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Lesson 71 クラスのデータバインディング基礎
+    <div id="app">
+        <p>Hello
+            <span v-bind:class="{ large: isLarge }">Vue.js!</span>
+        </p>
+        <p>Hello
+            <span :class="{ large: isLarge }">Vue.js!</span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 72 複数クラスの動的切り替え
+    <div id="app">
+        <p>Hello
+            <span v-bind:class="{ large: isLarge, 'text-danger': hasError }">Vue.js!</span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 73 プレーンなクラス属性との共存
+    <div id="app">
+        <p>Hello
+            <span class="bg-gray text-blue" v-bind:class="{ large: isLarge, 'text-danger': hasError }">Vue.js!</span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!--Lesson 74 配列構文によるクラスのデータバインディング
+    <div id="app">
+        <p>Hello!
+            <span v-bind:class="largeClass">Vue.js!</span>
+        </p>
+        <p>Hello!
+            <span v-bind:class="[largeClass, dangerClass]">Vue.js!</span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 75 オブジェクトデータの利用
+    <div id="app">
+        <p>Hello <span v-bind:class="classObject">Vue.js!</span></p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 76 クラスの判定条件に三項演算子を利用
+    <div id="app">
+        <p>Hello
+            <span v-bind:class="isLarge ? largeClass: ''">
+                Vue.js!
+            </span>
+        </p>
+        <p>Hello
+            <span v-bind:class="[isLarge ? largeClass: '', dangerClass]">
+                Vue.js!
+            </span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 77 インラインスタイルのデータバインディングの使用
+    <div id="app">
+        <p>
+            Hello
+            <span v-bind:style="{ color: color, fontSize: fontSize + 'px' }">
+                Vue.js
+            </span>
+        </p>
+        <p>
+            Hello
+            <span v-bind:style="{ color: color, 'font-size': fontSize + 'px' }">
+                Vue.js
+            </span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 78 インラインスタイルのデータバインディングにオブジェクトデータを利用
+    <div id="app">
+        <p>
+            Hello <span v-bind:style="styleObject">Vue.js!</span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+
+</body>
+
+</html>

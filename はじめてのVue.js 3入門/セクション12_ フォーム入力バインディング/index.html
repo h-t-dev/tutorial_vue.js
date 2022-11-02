@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js 3</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Lesson 94 フォーム入力バインディング基本
+    <div id="app">
+        <p>
+            {{ message }}
+        </p>
+        <input type="text" v-model="message">
+        <pre>{{ $data }}</pre>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 95 v-model利用時は属性無視
+    <div id="app">
+        <input type="text" v-model="message" value="hogehoge">
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+    <!-- Lesson 96 複数行テキスト
+    <div id="app">
+        <p>{{ message }}</p>
+-->
+    <!-- <textarea>{{ message }}</textarea> -->
+    <!--        <textarea v-model="message"></textarea>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 98 チェックボックス（単体）
+    <div id="app">
+        <label for="checkbox">{{ checked }}</label>
+        <input type="checkbox" id="checkbox" v-model="checked">
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+
+-->
+
+    <!-- Lesson99 チェックボックス（複数）
+    <div id="app">
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" value="Red" v-model="colors">
+        <label for="red">Green</label>
+        <input type="checkbox" id="green" value="green" v-model="colors">
+        <label for="red">Blue</label>
+        <input type="checkbox" id="blue" value="Blue" v-model="colors">
+        <p>{{ colors }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+    <!-- Lesson 100 ラジオボタン
+    <div id="app">
+        <input type="radio" id="red" value="Red" v-model="color">
+        <label for="red">Red</label>
+        <input type="radio" id="green" value="Green" v-model="color">
+        <label for="red">Green</label>
+        <input type="radio" id="blue" value="Blue" v-model="color">
+        <label for="red">Blue</label>
+        <p>{{ color }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+    <!-- Lesson 101 セレクトボックス（単体）
+    <div id="app">
+        <select v-model="selected">
+            <option disabled value="">Please select one</option>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+        <p>{{ selected }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+    <!-- Lesson 102 セレクトボックス（複数）
+    <div id="app">
+        <select v-model="selected" multiple>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+        <p>{{ selected }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+    <!-- Lesson 104 修飾子.lazy
+    <div id="app">
+        <input type="text" v-model.lazy="message">
+        <p>{{ message }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+    <!-- Lesson 105 就職時.trim
+    <div id="app">
+        <input type="text" v-model.trim="message"><br>
+        <input type="text" v-model="message">
+        <pre>{{ $data }}</pre>
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+    <!-- Lesson 106 修飾子.number
+    <div id="app">
+        <input type="number" v-model.number="age">
+        {{ age + 10 }}
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+-->
+
+
+</body>
+
+</html>

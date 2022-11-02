@@ -1,0 +1,84 @@
+/* Lesson 71 クラスのデータバインディング基礎
+.large {
+    font-size: 36px;
+}
+*/
+
+/* Lesson 72 複数クラスの動的切り替え
+.large {
+    font-size: 36px;
+}
+
+.text-danger {
+    color: red;
+}
+*/
+
+/* Lesson 73 プレーンなクラス属性との共存
+.large {
+    font-size: 36px;
+}
+
+.text-danger {
+    color: red;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.text-blue {
+    color: blue;
+}
+*/
+
+/* Lesson 74 配列構文によるクラスのデータバインディング
+.large {
+    font-size: 36px;
+}
+
+.text-danger {
+    color: red;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.text-blue {
+    color: blue;
+}
+*/
+
+
+/* Lesson 75 オブジェクトデータの利用
+.large {
+    font-size: 36px;
+}
+
+.text-danger {
+    color: red;
+}
+
+/* .bg-gray {
+    background-color: gray;
+  }
+  
+  .text-blue {
+    color: blue;
+  }
+*/
+
+/* Lesson 76 クラスの判定条件に三項演算子を利用
+.large {
+    font-size: 36px;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  .bg-gray {
+    background-color: gray;
+  }
+*/
